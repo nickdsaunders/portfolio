@@ -1,19 +1,25 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import './App.css'
+import React from "react";
+import Navbar from "./components/Navbar";
+import About from "./components/About";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./App.css";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
-function App() {
-  return(
-      <>
+const App = () => {
+  return (
+    <>
       <Router>
         <Navbar />
+        <About />
+        <Projects />
         <Switch>
-          <Route path='/' exact />
+          <Route path="/" exact />
         </Switch>
-        </Router>
-      </>
-    )
-  }
+        <Footer />
+      </Router>
+    </>
+  );
+};
 
 export default App;
