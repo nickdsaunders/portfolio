@@ -1,6 +1,7 @@
 import React from "react";
 import CardItem from "./CardItem";
 import "../styles/Cards.css";
+import Water from "../images/water-photo.jpg";
 
 const Projects = () => {
   return (
@@ -10,14 +11,14 @@ const Projects = () => {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="images/murray1.jpeg"
+              src={Water}
               head="Enter Project Name Here"
               text="Enter project description here"
-              label="Project1231"
+              label="Project"
               path="/"
             />
             <CardItem
-              src="images/murray1.jpeg"
+              src={Water}
               head="Enter Project Name Here"
               text="Enter project description here"
               label="Project1"
@@ -26,21 +27,21 @@ const Projects = () => {
           </ul>
           <ul className="cards__items">
             <CardItem
-              src="images/murray1.jpeg"
+              src={Water}
               head="Enter Project Name Here"
               text="Enter project description here"
               label="Project1"
               path="/"
             />
             <CardItem
-              src="images/murray1.jpeg"
+              src={Water}
               head="Enter Project Name Here"
               text="Enter project description here"
               label="Project1"
               path="/"
             />
             <CardItem
-              src="images/murray1.jpeg"
+              src={Water}
               head="Enter Project Name Here"
               text="Enter project description here"
               label="Project1"

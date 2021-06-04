@@ -16,6 +16,9 @@ const CardItem = (props) => {
           <div className="cards__item__info">
             <h5 className="cards__item__head">{props.head}</h5>
             <p className="cards__item__text">{props.text}</p>
+            <a href="https://github.com/nickdsaunders" target="_blank">
+              <i className="fab fa-github" />
+            </a>
           </div>
         </Link>
       </li>
