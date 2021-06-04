@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(6, 44, 167) 0%, rgb(26, 23, 23) 100%);
+  background: #242424;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -75,7 +75,9 @@
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+/* Mobile view Navbar styling */
+
+@media screen and (max-width: 860px) {
   .NavbarItems {
     position: relative;
   }

@@ -29,6 +29,7 @@ h1 {
   display: flex;
   flex: 1;
   margin: 0 1rem;
+  background-color: #739169;
 }
 
 .cards__item__link {
@@ -92,13 +93,13 @@ h1 {
 }
 
 .cards__item__head {
-  color: #252e48;
+  color: #000000;
   font-size: 18px;
   line-height: 24px;
 }
 
 .cards__item__text {
-  color: #252e48;
+  color: #000000;
   font-size: 12px;
   line-height: 24px;
 }
