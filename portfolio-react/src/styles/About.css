@@ -23,8 +23,9 @@
 }
 
 .skills-wrapper {
+  display: flex;
+  flex-direction: column;
   flex: 1;
-  /* order: 1; */
   color: white;
   font-size: 0.8rem;
   padding: 20px;
@@ -36,11 +37,18 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
+  border-bottom: solid black 1px;
 }
 
 .tech-icons-item {
-  flex-basis: 40%;
+  width: 100%;
+  display: flex;
+  flex: 3;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
   font-size: 2rem;
 }
 

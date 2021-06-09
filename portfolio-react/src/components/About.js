@@ -37,7 +37,7 @@ const About = () => {
         <h2>SKILLS</h2>
         <br />
         <div className="tech-icons">
-          <h3>LANGUAGES</h3>
+          <h3 className>LANGUAGES</h3>
           <div className="tech-icons-item">
             <SiJavascript />
             <DiRuby />
