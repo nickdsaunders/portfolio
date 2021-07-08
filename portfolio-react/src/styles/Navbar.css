@@ -15,7 +15,10 @@
   justify-content: center;
   align-items: center;
   height: 80px;
-  max-width: 1500px;
+  max-width: 1200px;
+}
+
+.nav-name-h2 {
 }
 
 .navbar-logo {
@@ -24,9 +27,10 @@
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 1.75rem;
   display: flex;
   align-items: center;
+  font-weight: 600;
 }
 
 .fa-typo3 {
@@ -42,7 +46,6 @@
   text-align: center;
   width: 60vw;
   justify-content: end;
-  margin-right: 2rem;
 }
 
 .nav-item {

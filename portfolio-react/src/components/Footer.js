@@ -1,40 +1,40 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "../styles/Footer.css";
-import ButtonMailto from "./ButtonMailto";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import '../styles/Footer.css';
+import ButtonMailto from './ButtonMailto';
+import Plants from '../images/plants.png';
 
-function Footer() {
+const Footer = () => {
   return (
-    <footer className="footer-container">
-      <div className="footer-links">
-        <div className="footer-link-wrapper">
-          <div className="footer-link-items">
-            <h2>Lets Connect!</h2>
-            <br />
-            <Link to="/"></Link>
-          </div>
-          <section className="social-media">
-            <div className="social-media-wrap">
-              <div className="social-icons">
-                <ButtonMailto
-                  label={<i className="far fa-paper-plane" />}
-                  mailto="mailto:nickdsaun@gmail.com"
-                />
-                <a
-                  href="https://www.linkedin.com/in/nickdsaunders"
-                  target="_blank">
-                  <i className="fab fa-linkedin" />
-                </a>
-                <a href="https://github.com/nickdsaunders" target="_blank">
-                  <i className="fab fa-github" />
-                </a>
-              </div>
+    <div className="footer">
+      <div className="footer-container">
+        <div className="footer-image-wrapper">
+          <img className="plants" alt="decorative" src={Plants} />
+        </div>
+
+        <div className="footer-connect-container">
+          <div className="footer-heading-wrapper">
+            <h1 className="footer-heading-h1">Lets Connect!</h1>
+            <div className="footer-divider"></div>
+            <div className="footer-icons-wrapper">
+              <ButtonMailto
+                label={<i className="far fa-paper-plane" />}
+                mailto="mailto:ndsaun@gmail.com"
+              />
+              <a
+                href="https://www.linkedin.com/in/nickdsaunders"
+                target="_blank">
+                <i className="fab fa-linkedin" />
+              </a>
+              <a href="https://github.com/nickdsaunders" target="_blank">
+                <i className="fab fa-github" />
+              </a>
             </div>
-          </section>
+          </div>
         </div>
       </div>
-    </footer>
+    </div>
   );
-}
+};
 
 export default Footer;
