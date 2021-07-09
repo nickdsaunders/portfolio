@@ -1,11 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const CardItem = (props) => {
   return (
     <>
       <li className="cards__item">
-        <Link className="cards__item__link" to={props.path}>
+        <div className="cards__item__wrapper">
           <figure className="cards__item__pic-wrap">
             <img
               src={props.src}
@@ -17,11 +16,17 @@ const CardItem = (props) => {
             <h5 className="cards__item__head">{props.head}</h5>
             <div className="card-head-divider"></div>
             <p className="cards__item__text">{props.text}</p>
-            {/* <a href="https://github.com/nickdsaunders" target="_blank">
-              <i className="fab fa-github" />
-            </a> */}
+            <h6 className="cards__item__stacks">{props.stacks}</h6>
+            <br />
+            <a href={props.path} className="cards__item__links">
+              {props.links}
+            </a>
+            {'  '}
+            <a href={props.path2} className="cards__item__links">
+              {props.links2}
+            </a>
           </div>
-        </Link>
+        </div>
       </li>
     </>
   );
