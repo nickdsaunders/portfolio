@@ -1,7 +1,6 @@
 import React from 'react';
 import CardItem from './CardItem';
 import '../styles/Cards.css';
-import Water from '../images/water-photo.jpg';
 import ZigZag from '../images/zigzag.png';
 import Apartments from '../images/apartment-finder.gif';
 import Webstacks from '../images/webstacks.gif';
