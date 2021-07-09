@@ -1,4 +1,4 @@
 [build]
   command = "yarn run build"
-  publish="https://github.com/nickdsaunders/portfolio/tree/main/portfolio-react"
-  base = "https://github.com/nickdsaunders/portfolio"
+  publish="portfolio/tree/main/portfolio-react"
+  base = "portfolio"
