@@ -54,7 +54,7 @@ const Projects = () => {
           <CardItem
             src={Portfolio}
             head="Portfolio"
-            text="This portfolio project I built from scratch in React, HTML, and CSS. In doing so I learned an immeasurable amount about formatting and styling especially using flexbox. It is still definitely a work in progress but a great learning experience nonetheless."
+            text="This portfolio project I built from scratch in React, HTML, and CSS. In doing so I learned an immeasurable amount about formatting and styling especially using flexbox. It is still definitely a work in progress but a great learning experience thus far."
             stacks="React, HTML, CSS"
             path="https://github.com/nickdsaunders/portfolio/tree/main/portfolio-react"
             links="GitHub"

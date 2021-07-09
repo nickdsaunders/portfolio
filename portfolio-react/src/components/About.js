@@ -20,14 +20,14 @@ const About = () => {
           <h2 className="about-h2">ABOUT ME</h2>
           <div className="about-divider"></div>
           <p className="about-p">
-            Hello, My name is Nick Saunders and I am a full stack developer in
-            Los Angeles with strong analytical skills, attention to detail, and
-            out of the box problem solving capabilities. Fueled by a passion for
-            clean efficient code and the desire to make practical applications
-            both user intuitive and aesthetically pleasing. Backed with a
-            demonstrated history of being an exemplary team player and a skilled
-            multi-tasker with 7+ years of professional experience in the design
-            industry.
+            Hello, My name is Nick Saunders and I am a full stack developer
+            currently in Los Angeles. I am equipped with strong analytical
+            skills, attention to detail, and the will to find solutions to
+            everyday problems. Fueled by a passion for clean efficient code and
+            the desire to make practical applications both user intuitive and
+            aesthetically pleasing. Backed with a demonstrated history of being
+            an exemplary team player and a skilled multi-tasker with 7+ years of
+            professional experience in the design industry.
           </p>
         </div>
 
