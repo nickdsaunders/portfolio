@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../styles/Footer.css';
 import ButtonMailto from './ButtonMailto';
 import Plants from '../images/plants.png';
@@ -21,12 +20,10 @@ const Footer = () => {
                 label={<i className="far fa-paper-plane" />}
                 mailto="mailto:ndsaun@gmail.com"
               />
-              <a
-                href="https://www.linkedin.com/in/nickdsaunders"
-                target="_blank">
+              <a href="https://www.linkedin.com/in/nickdsaunders">
                 <i className="fab fa-linkedin" />
               </a>
-              <a href="https://github.com/nickdsaunders" target="_blank">
+              <a href="https://github.com/nickdsaunders">
                 <i className="fab fa-github" />
               </a>
             </div>
