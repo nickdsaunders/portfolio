@@ -21,7 +21,7 @@ const CardItem = (props) => {
             <a href={props.path} className="cards__item__links">
               {props.links}
             </a>
-            {'  '}
+            <br />
             <a href={props.path2} className="cards__item__links">
               {props.links2}
             </a>

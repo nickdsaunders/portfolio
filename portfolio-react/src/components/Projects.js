@@ -24,6 +24,8 @@ const Projects = () => {
             stacks="React, Ruby on Rails, SQL, CSS, HTML, Bootstrap"
             path="https://github.com/nickdsaunders/trivia-game"
             links="GitHub"
+            path2="https://evening-chamber-40393.herokuapp.com/"
+            links2="Quench Your Thirst"
           />
           <CardItem
             src={Apartments}
