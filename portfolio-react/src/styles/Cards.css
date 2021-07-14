@@ -128,3 +128,13 @@
     margin-bottom: 2rem;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .projects-h1 {
+    font-size: 36px;
+  }
+
+  .projects-zigzag {
+    width: 100%;
+  }
+}

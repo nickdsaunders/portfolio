@@ -77,4 +77,12 @@
   .plants {
     padding: 0 20px;
   }
+
+  .footer-heading-wrapper {
+    margin: 0 auto;
+  }
+
+  .footer-heading-h1 {
+    font-size: 36px;
+  }
 }
