@@ -42,6 +42,18 @@
   font-size: 35px;
 }
 
+.rspec-icon {
+  width: 40px;
+}
+
+.git-icon {
+  width: 40px;
+}
+
+.bootstrap-icon {
+  width: 40px;
+}
+
 .about-divider {
   height: 2px;
   width: 25px;

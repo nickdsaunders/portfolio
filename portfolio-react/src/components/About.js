@@ -11,6 +11,9 @@ import {
 } from 'react-icons/si';
 import { DiRuby, DiPhotoshop } from 'react-icons/di';
 import { ImHtmlFive } from 'react-icons/im';
+import Rspec from '../images/rspec-icon.png';
+import Git from '../images/git-icon.png';
+import Bootstrap from '../images/bootstrap-icon.png';
 
 const About = () => {
   return (
@@ -64,15 +67,28 @@ const About = () => {
           <div className="tech-icons">
             <h3 className="skills-h3">TESTING:</h3>
             <div className="tech-icons-item">
-              <SiPostgresql />
+              <SiJest />
             </div>
             <div className="tech-icons-item">
-              <SiJest />
+              <img className="rspec-icon" src={Rspec} alt="Rspec-icon" />
             </div>
           </div>
 
           <div className="tech-icons">
-            <h3 className="skills-h3">DESIGN:</h3>
+            <h3 className="skills-h3">ADDITIONAL:</h3>
+            <div className="tech-icons-item">
+              <img className="git-icon" src={Git} alt="git-icon" />
+            </div>
+            <div className="tech-icons-item">
+              <SiPostgresql />
+            </div>
+            <div className="tech-icons-item">
+              <img
+                className="bootstrap-icon"
+                src={Bootstrap}
+                alt="bootstrap-icon"
+              />
+            </div>
             <div className="tech-icons-item">
               <DiPhotoshop />
             </div>
